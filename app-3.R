@@ -33,7 +33,7 @@ model <- randomForest(play ~ ., data = weather, ntree = 500, mtry = 4, importanc
 # User interface                   #
 ####################################
 
-ui <- fluidPage(theme = shinytheme("united"),
+ui <- fluidPage(theme = shinytheme("cerulean"),
   
   # Page header
   headerPanel('Play Golf?'),
